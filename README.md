@@ -146,6 +146,7 @@ components following the same API.
 * text
 * password
 * hidden
+* color
 * checkbox
 * select
 * textarea
@@ -159,10 +160,11 @@ components following the same API.
 * min
 * max
 * range
-* minLength
-* maxLength
-* rangeLength
+* minlength
+* maxlength
+* rangelength
 * regexp
+* color
 * email
 * url
 
@@ -245,6 +247,7 @@ for highly customised markup.
 * widget - A widget object to use when rendering the field
 * id - An optional id to override the default
 * choices - A list of options, used for multiple choice fields
+* cssClasses - A list of CSS classes for label and field wrapper
 
 
 ### field.clear()
