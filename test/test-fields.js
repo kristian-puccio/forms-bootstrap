@@ -220,7 +220,7 @@ exports['number parse'] = function (test) {
 exports['number toHTML'] = function (test) {
     test.equals(
         fields.number().toHTML('fieldname'),
-          '<div class="control-group">' 
+          '<div class="control-group">'
         +    '<label class="control-label" for="id_fieldname">Fieldname</label>'
         +    '<div class="controls">'
         +       '<input type="text" name="fieldname" id="id_fieldname" />'
@@ -245,19 +245,13 @@ exports['boolean parse'] = function (test) {
 exports['boolean toHTML'] = function (test) {
     test.equals(
         fields.boolean().toHTML('fieldname'),
-<<<<<<< HEAD
           '<div class="control-group">'
         +    '<label class="control-label" for="id_fieldname">Fieldname</label>'
         +    '<div class="controls">'
         +       '<input type="checkbox" name="fieldname" id="id_fieldname" />'
         +    '</div>'
         + '</div>'
-=======
-        '<div class="field">' +
-            '<label for="id_fieldname">Fieldname</label>' +
-            '<input type="checkbox" name="fieldname" id="id_fieldname" value="on" />' +
-        '</div>'
->>>>>>> forms/master
+
     );
     test.done();
 };
